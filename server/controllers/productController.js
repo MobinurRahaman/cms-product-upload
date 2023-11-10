@@ -17,6 +17,12 @@ const uploadProduct = async (req, res) => {
           .toFormat("jpeg")
           .toBuffer();
 
+        // Check if the "uploads" directory exists, if not, create it
+        const uploadsDir = "uploads";
+        if (!fs.existsSync(uploadsDir)) {
+          fs.mkdirSync(uploadsDir);
+        }
+
         const uniqueFilename = `${uuidv4()}.jpeg`;
         const newFilePath = path.join("uploads", uniqueFilename);
 
