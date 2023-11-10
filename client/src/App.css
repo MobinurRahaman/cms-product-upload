@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kdam+Thmor+Pro&family=Teko&display=swap");
+body {
+  background-color: #0d1222;
+  color: #fff;
+}
+
+.ql-toolbar,
+.ql-container {
+  border: 2px solid #444854 !important;
+}
+
+.ql-toolbar {
+  border-radius: 4px 4px 0 0;
+}
+
+.ql-container {
+  border-top: none !important;
+  border-radius: 0 0 4px 4px;
+}
+
+.ql-picker-options {
+  color: white !important;
+  background-color: #302c2c !important;
+  border: none !important;
+}

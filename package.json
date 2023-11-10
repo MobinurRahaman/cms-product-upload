@@ -1,0 +1,23 @@
+{
+  "name": "cms-product-upload",
+  "version": "1.0.0",
+  "description": "A sample CMS product upload app built in MERN stack",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MobinurRahaman/cms-product-upload.git"
+  },
+  "keywords": [
+    "cms",
+    "cms-product-upload"
+  ],
+  "author": "Md Mobinur Rahaman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MobinurRahaman/cms-product-upload/issues"
+  },
+  "homepage": "https://github.com/MobinurRahaman/cms-product-upload#readme"
+}
